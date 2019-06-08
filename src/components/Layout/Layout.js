@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
-import './Layout.scss';
 import Toolbar from '../Navigation/Toolbar/Toolbar';
 import SideDrawer from '../Navigation/SideDrawer/SideDrawer';
+import './Layout.scss';
 
-const layout = props => {
+const Layout = props => {
   const [sideDrawer, setSideDrawer] = useState(false);
 
   const sideDrawerClosedHandler = () => {
@@ -28,4 +28,4 @@ const layout = props => {
   );
 };
 
-export default layout;
+export default Layout;

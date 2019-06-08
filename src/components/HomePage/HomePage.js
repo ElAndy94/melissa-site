@@ -1,12 +1,11 @@
 import React from 'react';
 
 import './HomePage.scss';
-import Navigation from '../Navigation/NavigationItems/NavigationItems';
 
 function HomePage() {
   return (
     <React.Fragment>
-      <Navigation />
+      <h1>home page</h1>
     </React.Fragment>
   );
 }
