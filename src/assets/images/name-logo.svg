@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="274" height="80" viewBox="0 0 274 80">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3,.cls-4{fill:#ffb4ac;font-family:Lato-Bold,Lato;font-weight:700}.cls-3{font-size:40px}.cls-4{font-size:60px}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h274v80H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="Name_Logo" class="cls-2" data-name="Name Logo">
+        <text id="Meliss" class="cls-3">
+            <tspan x="6.6" y="39">Meliss</tspan>
+        </text>
+        <text id="stbury" class="cls-3" transform="translate(210 59)">
+            <tspan x="-56.87" y="0">stbury</tspan>
+        </text>
+        <text id="A" class="cls-4" transform="translate(132 61)">
+            <tspan x="-20.835" y="0">A</tspan>
+        </text>
+    </g>
+</svg>

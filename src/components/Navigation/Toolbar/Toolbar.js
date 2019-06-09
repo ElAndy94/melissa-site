@@ -1,16 +1,14 @@
 import React from 'react';
 
 import './Toolbar.scss';
-// import Logo from '../../Logo/Logo';
+import { ReactComponent as Icon } from '../../../assets/images/name-logo.svg';
 import NavigationItems from '../NavigationItems/NavigationItems';
 import DrawerToggle from '../SideDrawer/DrawerToggle/DrawerToggle';
 
 const toolbar = props => (
   <header className='tool__bar'>
     <DrawerToggle clicked={props.drawerToggleClicked} />
-    {/* <div className='logo'>
-      <Logo />
-    </div> */}
+    <Icon width={150} />
     <nav className='desktop__only'>
       <NavigationItems />
     </nav>

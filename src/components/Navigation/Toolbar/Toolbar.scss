@@ -4,9 +4,9 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #1e3855;
+  background-color: #264e70;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 0 20px;
   box-sizing: border-box;
@@ -17,9 +17,9 @@
   height: 100%;
 }
 
-.logo {
-  height: 80%;
-}
+// .logo {
+//   height: 80%;
+// }
 
 @media (max-width: 499px) {
   .desktop__only {

@@ -6,7 +6,7 @@
 }
 
 .navigation__item a {
-  color: #ffffff;
+  color: #ffb4ac;
   text-decoration: none;
   width: 100%;
   box-sizing: border-box;
@@ -29,7 +29,7 @@
   }
 
   .navigation__item a {
-    color: white;
+    color: #ffb4ac;
     height: 100%;
     padding: 16px 10px;
     border-bottom: 4px solid transparent;
@@ -38,8 +38,8 @@
   .navigation__item a:hover,
   .navigation__item a:active,
   .navigation__item a.active {
-    background-color: #2a517e;
-    border-bottom: 4px solid #40a4c8;
-    color: white;
+    // background-color: #2a517e;
+    border-bottom: 4px solid #ffb4ac;
+    color: #ffb4ac;
   }
 }

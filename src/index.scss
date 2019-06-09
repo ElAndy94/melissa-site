@@ -25,7 +25,9 @@ html {
  */
 
 body {
+  font-family: 'Lato', sans-serif;
   margin: 0;
+  font-size: 18px;
 }
 
 /**
@@ -42,7 +44,22 @@ main {
  */
 
 h1 {
-  font-size: 2em;
+  font-size: 40px;
+  margin: 0.67em 0;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 0.67em 0;
+}
+
+h3 {
+  font-size: 28px;
+  margin: 0.67em 0;
+}
+
+h4 {
+  font-size: 22px;
   margin: 0.67em 0;
 }
 
