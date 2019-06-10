@@ -4,9 +4,9 @@ import './Contact.scss';
 
 function Contact() {
   return (
-    <div className='home__container'>
+    <div className='contact__container'>
       <div>
-        <h1>Design is a language made visible.</h1>
+        <h1>Contact me on</h1>
       </div>
       <div>
         <p>
