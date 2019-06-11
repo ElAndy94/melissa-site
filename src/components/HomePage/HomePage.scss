@@ -1,8 +1,35 @@
 .home__container {
+  margin: 0 auto;
   margin-top: 100px;
-  text-align: center;
+  width: 60%;
 
-  h1 {
-    font-weight: 400;
+  .content {
+    padding-bottom: 32px;
+
+    .home--picture {
+      height: 150px;
+      width: 155px;
+      border-radius: 50%;
+    }
+
+    h1 {
+      font-weight: 400;
+    }
+  }
+
+  table thead tr th {
+    padding-left: 0;
+  }
+
+  table td {
+    padding-left: 0;
+  }
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    width: 90%;
+
+    h1 {
+      font-size: 32px;
+    }
   }
 }

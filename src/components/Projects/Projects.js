@@ -1,5 +1,7 @@
 import React from 'react';
 
+import firstImg from '../../assets/images/first-image.jpg';
+import secondImg from '../../assets/images/second-image.jpg';
 import './Projects.scss';
 
 function Project() {
@@ -7,7 +9,7 @@ function Project() {
     <div className='projects__container'>
       <div className='card-deck'>
         <div className='card'>
-          <img src='...' className='card-img-top' alt='...' />
+          <img src={firstImg} className='card-img-top' alt='...' />
           <div className='card-body'>
             <h5 className='card-title'>Adobe Project</h5>
             <p className='card-text'>
@@ -19,7 +21,7 @@ function Project() {
         </div>
 
         <div className='card'>
-          <img src='...' className='card-img-top' alt='...' />
+          <img src={secondImg} className='card-img-top' alt='...' />
           <div className='card-body'>
             <h5 className='card-title'>Personal Website</h5>
             <p className='card-text'>
@@ -32,7 +34,7 @@ function Project() {
 
       <div className='card-deck'>
         <div className='card'>
-          <img src='...' className='card-img-top' alt='...' />
+          <img src={firstImg} className='card-img-top' alt='...' />
           <div className='card-body'>
             <h5 className='card-title'>Freelance Job</h5>
             <p className='card-text'>
@@ -44,7 +46,7 @@ function Project() {
         </div>
 
         <div className='card'>
-          <img src='...' className='card-img-top' alt='...' />
+          <img src={secondImg} className='card-img-top' alt='...' />
           <div className='card-body'>
             <h5 className='card-title'>Freelance Job</h5>
             <p className='card-text'>

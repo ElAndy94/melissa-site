@@ -1,12 +1,12 @@
 import React from 'react';
 
-import './AboutMe.scss';
+import './Work.scss';
 
-function AboutMe() {
+function Work() {
   return (
-    <div className='about__container'>
+    <div className='work__container'>
       <div>
-        <h1>About me</h1>
+        <h1>Work Expierince</h1>
       </div>
       <div>
         <p>
@@ -19,4 +19,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+export default Work;
