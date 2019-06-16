@@ -1,20 +1,28 @@
 import React from 'react';
 
 import './HomePage.scss';
-import me from '../../assets/images/me.jpg';
+import me from '../../assets/images/test1.jpg';
 
 function HomePage() {
   return (
     <div className='home__container'>
       <div className='content'>
         <img src={me} alt='Girl in a jacket' className='home--picture' />
-        <h1>
-          I'm a curious designer inspired to solve complex problems through
-          designing engaging digital experiences.
-        </h1>
+        <h1>Design what matters.</h1>
         <p>
-          Currently living in Manchester and working in the finance sector. On
-          the side I am specialising into becoming a little UX star.
+          Hi, I’m Melissa. A self taught UX Designer in Manchester. Currently
+          learning design in my spare time to better my skills and knowledge. I
+          enjoy the journey of making ideas come to life to connect everyone
+          together.
+        </p>
+        <p>
+          My ambition is to be able to teach other aspiring UX Designers and
+          share my knowledge within teams or external talks.
+        </p>
+        <p>
+          When I am not designing I love to go walking in new places taking
+          photographs and if a lazy day is on the cards you will find me dunking
+          lots of biscuits in coffee.
         </p>
       </div>
       <div>

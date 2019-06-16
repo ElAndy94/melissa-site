@@ -32,7 +32,7 @@ function Project() {
         </div>
       </div>
 
-      <div className='card-deck'>
+      {/* <div className='card-deck'>
         <div className='card'>
           <img src={firstImg} className='card-img-top' alt='...' />
           <div className='card-body'>
@@ -55,7 +55,7 @@ function Project() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
