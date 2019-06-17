@@ -27,42 +27,62 @@ function HomePage() {
       </div>
       <div>
         <h4>Skills:</h4>
-        <table className='table table-borderless'>
-          <thead>
-            <tr>
-              <th scope='col'>Product Design</th>
-              <th scope='col'>Design</th>
-              <th scope='col'>Research</th>
-              <th scope='col'>Tools</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Responsive Web Design</td>
-              <td>UI Design</td>
-              <td>Journey Mapping</td>
-              <td>Adobe XD</td>
-            </tr>
-            <tr>
-              <td>Mobile Design</td>
-              <td>Wireframing</td>
-              <td>Personas & Scenarios</td>
-              <td>Sketch</td>
-            </tr>
-            <tr>
-              <td>User Experience Design</td>
-              <td>Brand Identity</td>
-              <td />
-              <td>Adobe Photoshop</td>
-            </tr>
-            <tr>
-              <td>Strategic Design</td>
-              <td>User Flows</td>
-              <td />
-              <td>Pen & Paper</td>
-            </tr>
-          </tbody>
-        </table>
+        <div className='table-responsive'>
+          <table className='table table-borderless'>
+            <thead>
+              <tr>
+                <th scope='col'>Product Design</th>
+                <th scope='col'>Design</th>
+                <th scope='col'>Research</th>
+                <th scope='col'>Tools</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Responsive Web Design</td>
+                <td>UI Design</td>
+                <td>Journey Mapping</td>
+                <td>Adobe XD</td>
+              </tr>
+              <tr>
+                <td>Mobile Design</td>
+                <td>Wireframing</td>
+                <td>Personas & Scenarios</td>
+                <td>Sketch</td>
+              </tr>
+              <tr>
+                <td>User Experience Design</td>
+                <td>Brand Identity</td>
+                <td />
+                <td>Adobe Photoshop</td>
+              </tr>
+              <tr>
+                <td>Strategic Design</td>
+                <td>User Flows</td>
+                <td />
+                <td>Pen & Paper</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div className='slider--container'>
+        <h3>Certificates</h3>
+        <div className='slider-holder'>
+          <span id='slider-image-1' />
+          <span id='slider-image-2' />
+          <span id='slider-image-3' />
+          <div className='image-holder'>
+            <img src={me} className='slider-image' />
+            <img src={me} className='slider-image' />
+            <img src={me} className='slider-image' />
+          </div>
+          <div className='button-holder'>
+            <a href='#slider-image-1' className='slider-change' />
+            <a href='#slider-image-2' className='slider-change' />
+            <a href='#slider-image-3' className='slider-change' />
+          </div>
+        </div>
       </div>
     </div>
   );
